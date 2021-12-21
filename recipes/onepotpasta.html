@@ -4,24 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="../layout.css" rel="stylesheet">
     <title>One Pot Pasta Recipe</title>
 </head>
 <body>
-    <main>
+    <!-- "Skip to Content" link for screen readers and keyboard navigation -->
+    <a href="#maincontent" class="visually_hidden">Skip to main content</a>
+    <!-- Main content -->
+    <main id="maincontent">
+        <!-- "Skip to recip" link for screen readers nad keyboard navigation -->
+        <a href="#recipe" class="visually_hidden">Skip to recipe</a>
         <h1>One Pot Pasta</h1>
-        <!-- FIXME: insert image here -->
+        <figure>
+            <img src="images/onepotpasta.jpg" alt="Close up of uncooked pasta ingredients in a steel pot.">
+            <figcaption>
+                One-pot pasta is a quick and delicious meal with minimal clean-up!
+            </figcaption>
+        </figure>
         <!-- FIXME: insert descriptive paragraph here -->
-        <h2>Ingredients</h2>
-        <ul aria-label="Ingredients">
-            <li>2 tablespoons olive oil</li>
-            <li>1 cup chopped onion</li>
-            <li>6 garlic cloves</li>
-            <li>14 ounces diced tomatoes (fresh)</li>
-            <li>2 cups chicken broth</li>
-            <li>1 tablespoon chopped basil</li>
-            <li>8 ounces dry spaghetti</li>
-            <li><span aria-label="one fourth"><span aria-hidden="true">1/4</span></span> teaspoon salt (or to taste)</li>
-        </ul>
+        <div id="recipe">
+            <h2>Ingredients</h2>
+            <ul aria-label="Ingredients">
+                <li>2 tablespoons olive oil</li>
+                <li>1 cup chopped onion</li>
+                <li>6 garlic cloves</li>
+                <li>14 ounces diced tomatoes (fresh)</li>
+                <li>2 cups chicken broth</li>
+                <li>1 tablespoon chopped basil</li>
+                <li>8 ounces dry spaghetti</li>
+                <li aria-hidden="true">1/4 teaspoon kosher salt (or to taste)</li>
+                <li class="visually_hidden">One fourth teaspoon kosher salt (or to taste)</li>
+                <li aria-hidden="true">1/4 cup shredded Parmesan cheese</li>
+                <li class="visually_hidden">One fourth cup shredded Parmesan cheese</li>
+            </ul>
+            <h2>Instructions</h2>
+            <ol aria-label="Instructions">
+                <li>Heat oil in a wide skillet, pan, or pot over medium heat.  Add the onion and garlic, and then sauté 3 minutes until they start to brown.</li>
+                <li>Add the tomatoes, chicken broth, basil, and spaghetti.  Ensure the spaghetti is submerged in the liquid.</li>
+                <li>Cover the skillet, pan, or pot with a lid and reduce the heat to medium-low.</li>
+                <li>Cook for 8 minutes or until the pasta is al dente. (If the pasta is not cooked after 8 minutes, add a little more chicken broth. Then cover the lid and cook for an additional 1 to 2 minutes.)</li>
+                <li>Uncover the lid and add the salt. Then turn off the heat.</li>
+                <li>Top the pasta with the Parmesan cheese and parsley. Serve immediately.</li>
+            </ol>
+        </div>
     </main>
 </body>
 </html>
