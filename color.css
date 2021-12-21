@@ -9,5 +9,9 @@
 */
 
 html {
-    color:red;
+    background-color: #fafafa;
+}
+
+body {
+    color: #333333;
 }
