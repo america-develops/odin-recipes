@@ -8,7 +8,7 @@
 
 */
 
-/* SET FOCUS STYLE -- do not remove! Needed for accessibility */
+/* SET FOCUS STYLE -- do not remove! Needed for keyboard focus */
 *:focus {
     outline: 5px solid orange !important;
 }
