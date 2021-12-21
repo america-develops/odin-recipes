@@ -7,3 +7,8 @@
     Description: Stylesheet that holds all style information for pages.
 
 */
+
+/* Import layout.css stylesheet */
+@import url(layout.css);
+
+/* Import color.css stylesheet */
