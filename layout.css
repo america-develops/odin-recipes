@@ -8,6 +8,11 @@
 
 */
 
+/* SET FOCUS STYLE -- do not remove! Needed for accessibility */
+*:focus {
+    outline: 5px solid orange !important;
+}
+
 /* SCREEN READER STYLES */
 .visually_hidden:not(:focus) {  /* Hides item from visual display while still being visible to screen readers */
     border: 0;
