@@ -4,6 +4,29 @@
     Date created: 12/22/2021
     Name: typeborders.css
 
-    Description: Stylesheet that controls typography and border properties.  Does not include color.
+    Description: Stylesheet that controls typography and border properties.  Symbols and icon styles are included in this stylesheet.  This stylesheet does not include color.
 
+*/
+
+
+/*  
+    INTERACTIVE ELEMENT STYLES 
+    ---------------------    
+*/
+    /* SET FOCUS STYLE -- do not remove! Needed for keyboard focus */
+    *:focus {
+        outline: 5px solid !important;
+    }
+
+    /* <a> element styles */
+    a {
+        text-decoration: underline;
+        font-weight: bold;
+        text-underline-offset: 0.2em;
+    }
+
+
+/*  
+    INTERACTIVE ELEMENT STYLES 
+    ---------------------    
 */
