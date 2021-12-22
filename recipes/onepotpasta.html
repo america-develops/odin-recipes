@@ -8,6 +8,10 @@
     <title>One Pot Pasta Recipe</title>
 </head>
 <body>
+    <!-- Non-visible elements for aria-describedby attributes -->
+    <div id="opensnew" class="invisible">
+        Opens in new window.
+    </div>
     <!-- "Skip to Content" link for screen readers and keyboard navigation -->
     <a href="#maincontent" class="visually_hidden">Skip to main content</a>
     <!-- Breadcrumb navigation -->
@@ -26,7 +30,7 @@
         <figure>
             <img src="images/onepotpasta.jpg" alt="Close up of uncooked pasta ingredients in a steel pot.">
             <figcaption>
-                One-pot pasta is a quick and delicious meal with minimal clean-up.
+                (<a href="https://www.marcusnilsson.com/" target="_blank" aria-describedby="opensnew">Photo credit to Marcus Nilsson.</a>) One-pot pasta is a quick and delicious meal with minimal clean-up. 
             </figcaption>
         </figure>
         <!-- Descriptive paragraph(s) -->
