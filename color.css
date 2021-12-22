@@ -15,3 +15,7 @@ html {
 body {
     color: #333333;
 }
+
+*:focus {
+    outline-color: orange;
+}

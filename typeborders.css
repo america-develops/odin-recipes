@@ -15,7 +15,8 @@
 */
     /* SET FOCUS STYLE -- do not remove! Needed for keyboard focus */
     *:focus {
-        outline: 5px solid !important;
+        outline-width: 5px !important;
+        outline-style: solid !important;
     }
 
     /* <a> element styles */
