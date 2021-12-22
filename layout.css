@@ -29,3 +29,13 @@
     .invisible {
         display: none;
     }
+
+
+/* 
+    FIGURE ELEMENT STYLES
+    ---------------------
+*/
+
+figure img {
+    max-width: 100%;
+}
