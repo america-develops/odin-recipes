@@ -8,8 +8,11 @@
 
 */
 
-/* Import layout.css stylesheet */
+/* Import layout stylesheet */
 @import url(layout.css);
 
-/* Import color.css stylesheet */
+/* Import typography and border stylesheet */
+@import url(typeborders.css);
+
+/* Import color stylesheet */
 @import url(color.css);
