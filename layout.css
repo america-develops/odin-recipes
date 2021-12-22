@@ -8,10 +8,7 @@
 
 */
 
-/* SET FOCUS STYLE -- do not remove! Needed for keyboard focus */
-*:focus {
-    outline: 5px solid orange !important;
-}
+
 
 /* SCREEN READER STYLES */
 .visually_hidden:not(:focus) {  /* Hides item from visual display while still being visible to screen readers */
@@ -25,4 +22,10 @@
     width: 1px;
 }
 
-/* Add 'New window' icon all a elements that open in a new window */
+/* 
+    GENERAL CLASS STYLES
+    ---------------------
+*/
+    .invisible {
+        display: none;
+    }
