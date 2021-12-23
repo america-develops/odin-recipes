@@ -22,7 +22,7 @@
     RECIPE STYLES
     ---------------------
 */
-    div#recipe {
+    #recipe {
         border: 4px double;
     }
 
