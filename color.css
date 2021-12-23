@@ -8,15 +8,37 @@
 
 */
 
-html {
-    background-color: #FFE294;
-}
 
-body {
-    color: #333333;
-    background-color: #fafafa;
-}
+/*
+    LANDMARK STYLES
+*/
 
-*:focus {
-    outline-color: orange;
-}
+    html {
+        background-color: #F5F5F5;
+    }
+
+    body {
+        color: #333333;
+        background-color: #FCFCFC;
+    }
+
+
+/* 
+    RECIPE Styles
+*/
+    div#recipe {
+        background-color: #fce7ae;
+    }
+
+
+/* 
+    INTERACTIVE ELEMENT STYLES
+*/
+
+    *:focus {
+        outline-color: #009FC7; /* #159FC1 */
+    }
+
+    a {
+        color: #EB3B00; /* #D63600 */
+    }

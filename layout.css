@@ -8,14 +8,28 @@
 
 */
 
+/* RESET STYLES */
+body, div, figure {
+    box-sizing: border-box;
+}
+
 
 /* LANDMARK STYLES */
     body {
         min-width: 400px;
         max-width: 960px;
+        min-height: 66vh;
         margin: 0px auto;
+        padding: 0.5em 1em;
     }
 
+
+/* RECIPE STYLES */
+    div#recipe {
+        max-width: 75%;
+        padding: 1em 2em;
+        margin: 2em auto;
+    }
 
 
 /* SCREEN READER STYLES */
@@ -43,7 +57,12 @@
     FIGURE ELEMENT STYLES
     ---------------------
 */
+    figure {
+        max-width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
-figure img {
-    max-width: 100%;
-}
+    figure img {
+        max-width: 100%;
+    }
