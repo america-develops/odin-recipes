@@ -9,6 +9,14 @@
 */
 
 
+/* LANDMARK STYLES */
+    body {
+        min-width: 400px;
+        max-width: 960px;
+        margin: 0px auto;
+    }
+
+
 
 /* SCREEN READER STYLES */
 .visually_hidden:not(:focus) {  /* Hides item from visual display while still being visible to screen readers */

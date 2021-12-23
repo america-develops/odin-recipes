@@ -9,11 +9,12 @@
 */
 
 html {
-    background-color: #fafafa;
+    background-color: #FFE294;
 }
 
 body {
     color: #333333;
+    background-color: #fafafa;
 }
 
 *:focus {
